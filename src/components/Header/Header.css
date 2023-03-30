@@ -1,0 +1,43 @@
+.header {
+  background-color: #1a242f;
+  height: 8vh;
+  padding: 0 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.user-image, .user-image img {
+  width: 40px;
+  height: 40px;
+}
+
+.search-bar {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+.search-bar form {
+  display: flex;
+  justify-content: center;
+  width: 70%;
+}
+.search-bar form button {
+  padding: 0px 8px;
+  font-size: 20px;
+  cursor: pointer;
+  height: 40px;
+}
+.search-bar input {
+  font-size: 18px;
+  width: 100%;
+  padding: 5px 5px 5px 10px;
+  height: 40px;
+  outline: none;
+}/*# sourceMappingURL=Header.css.map */
